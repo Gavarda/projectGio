@@ -1,0 +1,341 @@
+main {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    margin: 0 50px;
+}
+
+.orebi {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.single-language {
+    margin: 5px;
+    color: grey;
+    font-size: 12px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-icon {
+    margin: 10px;
+}
+
+.hero {
+    height: 700px;
+    /* background: url(../img/white.png) center/cover no-repeat; */
+    position: relative;
+}
+
+.hero-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.10);
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 293px;
+}
+
+.shopNow {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 24px;
+    /* margin-top: 50px auto; */
+}
+
+.div-shop {
+    margin-top: 50px;
+}
+
+.fifty {
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+.delivery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 80px;
+    border-bottom: 1px solid grey;
+}
+
+.single-delivery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sales-content {
+    height: 780px;
+    margin: 140px 160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    position: relative;
+}
+
+.first {
+    height: 100%;
+    background-color: rgb(185, 178, 178);
+    color: white;
+}
+
+.first * {
+   margin-left: 50px;
+}
+
+.first h3 {
+    font-size: 30px;
+    margin-top: 268px;
+}
+
+.first a{
+    margin-top: 66px;
+}
+
+.sales-second {
+    height: 100%;
+    gap: 40px;
+    display: grid;
+}
+
+.second {
+    background-color: rgb(185, 178, 178);
+    color: white;
+}
+
+.second * {
+    margin-left: 50px;
+}
+
+.second h3 {
+    margin-top: 63px;
+    font-size: 30px;
+}
+
+.third {
+    background-color: rgb(185, 178, 178);
+    color: white;
+}
+
+.third * {
+    margin-left: 50px;
+}
+
+.third h3 {
+    margin-top: 63px;
+    font-size: 30px;
+}
+
+.newarrivals {
+    height: 562px;
+    
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.single-box {
+    background-color: rgb(156, 141, 141);
+    height: 370px;
+}
+
+/* .new-box {
+    height: 35px;
+    width: 92px;
+    background-color: rgb(15, 15, 15);
+    position: relative; 
+    top: 20px;
+    left: 20px; 
+    text-align: center;
+} */
+
+.new-arrival {
+    color: white;
+    text-decoration: none;
+    padding: 8px 32px;
+    height: 35px;
+    width: 92px;
+    background-color: rgb(15, 15, 15);
+    position: relative; 
+    top: 20px;
+    left: 20px; 
+    text-align: center;
+}
+
+.newbtn:hover {
+    background-color: rgb(6, 35, 98);
+    color: rgb(25, 146, 221);
+    transition-duration: 1000ms;
+    font-size: 10px;
+}
+
+.newbtn {
+    width: 92px;
+    height: 35px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+.box-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grey44 {
+    color: grey;
+    font-size: 14px;
+}
+
+.phoneyear {
+    height: 370px;
+    background-color: rgb(156, 141, 141);
+    color: white;
+
+}
+
+.year-text {
+  margin-left: 680px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.year-text h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.shopdiv {
+    height: 55px;
+    width: 190px;
+    position: relative;
+}
+.shopNowWhite {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.brands {
+    height: 530px;
+}
+
+.brand-boxes {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.brand-box {
+    display: flex;
+    height: 320px;
+    flex-basis: 320px;
+    border: 1px solid white;
+    background-color: rgb(156, 141, 141);
+}
+
+.journal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 36px;
+    
+}
+.journal-box {
+    height: 400px;
+    flex-basis: 500px;
+    background-color:rgb(156, 141, 141);
+}
+
+footer {
+    height: 375px;
+    background-color: rgb(228, 219, 219);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 105px;
+}
+
+.single-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 180px;
+    justify-content: space-between;
+}
+
+.footer-container * {
+    text-decoration: none;
+    color: rgb(99, 92, 92);
+}
+
+.footer-container h3 {
+    all: unset;
+    color: black;
+    font-size: 18px;
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    gap: 20px;
+}
